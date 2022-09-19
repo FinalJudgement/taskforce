@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(0, 174, 255);
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(21, 255, 0, 0.575);
+    color: rgb(253, 238, 215);
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.task-container {
+    height: 80vh;
+    width: 30vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2em;
+}
+
+li {
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-wrap: break-word;
+    width: 450px;
+}
+
+input {
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    font-size: 20px;
+    border-radius: .2em;
+}
+
+#submit {
+    padding: 10px 50px;
+    border-radius: 1em;
+    background-color: rgba(86, 252, 127, 0.719);
+}
+
+#submit:hover {
+    background-color: rgb(0, 255, 64);
+    box-shadow: 0 0 1px 1px;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.prompt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 5%;
+    transform: translate(-50%, -50%);
+    height: 10%;
+    width: 20%;
+    color: white;
+    background-color: rgba(0, 194, 48, 0.774);
+    text-align: center;
+    box-shadow: 0 0 1px 2px black;
+    z-index: 2;
+}
+
+.option1 {
+    height: 40px;
+    width: 55px;
+    margin: 10px;
+    background-color: rgb(2, 255, 2);
+}
+
+.option1:hover {
+    background-color: rgb(16, 179, 243);
+}
+
+.option2 {
+    height: 40px;
+    width: 50px;
+    margin: 10px;
+    background-color: red;
+}
+
+.option2:hover {
+    background-color: rgb(16, 179, 243);
+}
+
+#cover-complete {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    height: 81vh;
+    width: 30vw;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 2em;
+    top: 17%;
+    right: 10%;
+}
+
+#clear {
+    position: absolute;
+    right: 10%;
+    top: 11%;
+    width: 6%;
+    height: 4%;
+    background-color: rgb(255, 117, 117);
+    border-radius: 1em;
+}
+
+#clear:hover {
+    background-color: red;
+    box-shadow: 0 0 1px 1px;
+}

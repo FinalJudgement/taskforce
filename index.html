@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Force</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <h1>Task Force</h1>
+
+    <form action="none" id="new-task-form">
+        <input id="new-task" type="text" placeholder="Submit a new task.">
+        <button id="submit">Submit</button>
+    </form>
+    <div id="container">
+        <div class="task-container">
+            <ul id="list"></ul>
+        </div>
+        <div class="task-container">
+
+            <ul id="completed"></ul>
+        </div>
+    </div>
+    <button id="clear">Clear History</button>
+    <div id="cover-complete"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
