@@ -20,7 +20,7 @@ form.addEventListener('submit', function (e) {
         newLi.style.backgroundColor = 'rgba(59, 151, 255, 0.636)'
     })
     newLi.addEventListener('mouseout', function () {
-        newLi.style.backgroundColor = 'white'
+        newLi.style.backgroundColor = '#eff6ee'
     })
     newLi.addEventListener('click', function () {
         const coverPage = document.createElement('DIV')
