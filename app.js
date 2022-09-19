@@ -17,7 +17,7 @@ form.addEventListener('submit', function (e) {
     newLi.innerText = newTask;
     input.value = "";
     newLi.addEventListener('mouseover', function () {
-        newLi.style.backgroundColor = 'rgba(0, 255, 21, 0.781)'
+        newLi.style.backgroundColor = 'rgba(59, 151, 255, 0.636)'
     })
     newLi.addEventListener('mouseout', function () {
         newLi.style.backgroundColor = 'white'

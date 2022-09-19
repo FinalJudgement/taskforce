@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 body {
     margin: 0;
-    background-color: rgb(0, 174, 255);
+    background-color: #9197ae;
     font-size: 1.2em;
     font-family: 'Open Sans', sans-serif;
 
@@ -11,8 +11,8 @@ body {
 h1 {
     margin: 0;
     padding: 10px;
-    background-color: rgba(21, 255, 0, 0.575);
-    color: rgb(253, 238, 215);
+    background-color: #273043;
+    color: #eff6ee;
 }
 
 #container {
@@ -23,16 +23,16 @@ h1 {
 .task-container {
     height: 80vh;
     width: 30vw;
-    background-color: rgb(255, 255, 255);
+    background-color: #eff6ee;
     border-radius: 2em;
 }
 
 li {
-    width: 95%;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
     word-wrap: break-word;
-    width: 450px;
+    width: 95%;
 }
 
 input {
@@ -72,8 +72,8 @@ input {
     transform: translate(-50%, -50%);
     height: 10%;
     width: 20%;
-    color: white;
-    background-color: rgba(0, 194, 48, 0.774);
+    color: #eff6ee;
+    background-color: #273043c2;
     text-align: center;
     box-shadow: 0 0 1px 2px black;
     z-index: 2;
@@ -83,11 +83,11 @@ input {
     height: 40px;
     width: 55px;
     margin: 10px;
-    background-color: rgb(2, 255, 2);
+    background-color: rgb(81, 255, 81);
 }
 
 .option1:hover {
-    background-color: rgb(16, 179, 243);
+    background-color: #9197ae;
 }
 
 .option2 {
@@ -98,7 +98,7 @@ input {
 }
 
 .option2:hover {
-    background-color: rgb(16, 179, 243);
+    background-color: #9197ae;
 }
 
 #cover-complete {
@@ -125,4 +125,5 @@ input {
 #clear:hover {
     background-color: red;
     box-shadow: 0 0 1px 1px;
+
 }
