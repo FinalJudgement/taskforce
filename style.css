@@ -127,3 +127,7 @@ input {
     box-shadow: 0 0 1px 1px;
 
 }
+
+#completed {
+    text-decoration: line-through;
+}
