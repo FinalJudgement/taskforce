@@ -38,7 +38,6 @@ li {
 input {
     margin-left: 5%;
     margin-top: 20px;
-    margin-bottom: 20px;
     width: 40%;
     font-size: 20px;
     border-radius: .2em;
@@ -130,4 +129,17 @@ input {
 
 #completed {
     text-decoration: line-through;
+    text-decoration-thickness: .2em;
+}
+
+#container-heading {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 3px;
+    padding: 0;
 }
